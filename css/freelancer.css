@@ -4,9 +4,6 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 
-body {
-  overflow-x: hidden;
-}
 p {
   font-size: 20px;
 }
@@ -104,29 +101,12 @@ header .intro-text .skills {
   }
 }
 @media (min-width: 768px) {
-  .navbar-fixed-top {
-    padding: 25px 0;
-    -webkit-transition: padding 0.3s;
-    -moz-transition: padding 0.3s;
-    transition: padding 0.3s;
-  }
-  .navbar-fixed-top .navbar-brand {
-    font-size: 2em;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    transition: all 0.3s;
-  }
   .navbar-fixed-top.navbar-shrink {
     padding: 10px 0;
   }
   .navbar-fixed-top.navbar-shrink .navbar-brand {
     font-size: 1.5em;
   }
-}
-.navbar {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  font-weight: 700;
 }
 .navbar a:focus {
   outline: none;
@@ -136,10 +116,6 @@ header .intro-text .skills {
 }
 .navbar .navbar-nav li a:focus {
   outline: none;
-}
-.navbar-default,
-.navbar-inverse {
-  border: none;
 }
 section {
   padding: 100px 0;
